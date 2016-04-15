@@ -2,56 +2,39 @@
 h1 {
   font-size: 50px;
   font-weight: bold;
-  border: 5px solid black;
-  border-style: groove;
-  font-family: Comic Sans;
-  background-image: url("http://i.stack.imgur.com/WHu9Z.png");
-  color: black;
-  border: 5px solid blue;
+  font-family: Lobster;
+  color: turquoise;
   margin: 40px 30px 20px 30px;
   padding: 15px;
+  text-shadow: none;
 
 }
  #message {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: italic;
-  border: 5px solid black;
-  border-style: groove;
-  font-family: Comic Sans;
-  background-image: url("http://i.stack.imgur.com/WHu9Z.png");
-  color: black;
-   border: 5px solid blue;
-   margin: 40px 30px 20px 30px;
-   padding: 30px;
-   border-radius: 50%;
-
+  font-family: helvetica;
+  background: black;
+  color: white;
+  padding: 20px;
+  text-shadow: none;
   }
 
 .square {
-
- border-radius: 15px;
+ border-radius: 30px;
  height: 150px;
- width: 150px;
+ width:  150px;
  display: inline-block;
-
-
  overflow: auto;
- background-image: url("http://vignette3.wikia.nocookie.net/papermario/images/6/6f/Super-star.png/revision/latest?cb=20140522220841");
+ background-image: url("http://www.publicdomainpictures.net/pictures/130000/nahled/turquoise-mosaic-background-pattern.jpg");
  font-size: 120px;
- border-color: solid white;
- border: 5px;
- border-style: groove;
-
+ padding: 13px;
 }
 
 .row {
-
  overflow: auto;
-
  height: 180px;
  width: 600px;
  margin: 0 auto;
-
 }
 
 #container {
@@ -70,13 +53,12 @@ body {
   margin: auto;
   padding: 0px;
   text-align: center;
-  background-image: url("https://www.colourbox.com/preview/1576818-brick-wall-background-urban-city-building-scene.jpg");
+  background: black;
   min-width: 200px;
   min-height: 200px;
   color: black;
-
-
-  }
+  text-shadow: 2px 2px white;
+}
 
 }
 
