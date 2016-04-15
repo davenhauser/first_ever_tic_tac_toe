@@ -16,7 +16,8 @@ h1 {
   background: black;
   color: white;
   padding: 20px;
-  text-shadow: none;
+  text-shadow: 1px 1px turquoise;
+
   }
 
 .square {
@@ -60,10 +61,13 @@ body {
   text-shadow: 2px 2px white;
 }
 
-}
-
-#button{
+button{
  text-align: center;
- padding: 10px 0px 0px 0px;
+ height: 60px;
+ width: 60px;
+ border: 2px solid turquoise;
+ background: transparent;
+ color: white;
+ border-radius: 50%;
 }
 
