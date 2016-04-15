@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Tic Tac Toe Game</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body onload = "startGame();">
+
+<h1>TIC TAC TOE</h1>
+
+<div id="message">
+Messages will go here
+</div>
+
+<div id= "main">
+
+<div class = player 1>
+
+
+<div id = "container">
+
+          <div class="row">
+                <div class="square" id="cell1" onclick="nextMove(this);"></div>
+                <div class="square" id="cell2" onclick="nextMove(this);"></div>
+                <div class="square" id="cell3" onclick="nextMove(this);"></div>
+            </div>
+
+            <div class="row">
+                <div class="square" id="cell4" onclick="nextMove(this);"></div>
+                <div class="square" id="cell5" onclick="nextMove(this);"></div>
+                <div class="square" id="cell6" onclick="nextMove(this);"></div>
+            </div>
+
+            <div class="row">
+                <div  class="square" id="cell7" onclick="nextMove(this);"></div>
+                <div  class="square" id="cell8" onclick="nextMove(this);"></div>
+                <div  class="square" id="cell9" onclick="nextMove(this);"></div>
+            </div>
+
+        </div>
+
+<div>
+<input type="reset" onclick="startGame()" value="Reset">
+</div>
+
+<script src="script.js"></script>
+</div>
+
+</body>
+</html>
